@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<mosinstall type="module">
+    <name>SmoothGallery Module</name>
+    <creationDate>January-15-2007</creationDate>
+    <author>Joomlashack</author>
+    <copyright>GPL</copyright>
+    <authorEmail>joomlashack@gmail.com</authorEmail>
+    <authorUrl>http://www.joomlashack.com</authorUrl>
+    <version>1.0</version>
+    <description>
+	<![CDATA[<p><img src="./components/com_smoothgallery/images/sg_logo_small.png" width="186" height="67" hspace="5" align="left" style="padding-bottom:25px" />This module works in coordination with the SmoothGallery component from <a href="http://www.joomlashack.com">Joomlashack</a>.<br>
+  For <strong>Component</strong> support please <a href="http://www.joomlashack.com/component/option,com_smf/Itemid,146/action,register">register</a> and sign in at the Joomlashack support forum.<br>
+If you are receiveing Javascript errors please see the original script developers website at <a href="http://smoothgallery.jondesign.net/">http://smoothgallery.jondesign.net/</a></p>
+<p><strong>Instructions:</strong><br>
+Configure this module by entering the Album ID you have set for the entries in the <a href="index2.php?option=com_smoothgallery">SmoothGallery component</a>. For secondary albums, use Joomla's &quot;Copy Module&quot; feature in the Module Manager.</p>
+
+]]>
+	</description>
+     <files>
+         <filename module="mod_js_smoothgallery">mod_js_smoothgallery.php</filename>
+         <filename module="mod_js_smoothgallery">mod_js_smoothgallery/jd.gallery.js</filename>
+         <filename module="mod_js_smoothgallery">mod_js_smoothgallery/mootools.js</filename>
+         <filename module="mod_js_smoothgallery">mod_js_smoothgallery/css/img/fleche1.gif</filename>
+         <filename module="mod_js_smoothgallery">mod_js_smoothgallery/css/img/fleche1.png</filename>
+         <filename module="mod_js_smoothgallery">mod_js_smoothgallery/css/img/fleche2.gif</filename>
+         <filename module="mod_js_smoothgallery">mod_js_smoothgallery/css/img/fleche2.png</filename>
+         <filename module="mod_js_smoothgallery">mod_js_smoothgallery/css/img/loading-bar-black.gif</filename>
+         <filename module="mod_js_smoothgallery">mod_js_smoothgallery/css/img/open.gif</filename>
+         <filename module="mod_js_smoothgallery">mod_js_smoothgallery/css/img/open.png</filename>
+         <filename module="mod_js_smoothgallery">mod_js_smoothgallery/css/jd.gallery.css</filename>
+      </files>
+      <params>
+		<param name="width" type="text" default="500" label="Width" description="Width of the gallery" />
+		<param name="height" type="text" default="225" label="Height" description="Height of the gallery" />
+		<param name="delay" type="text" default="7000" label="Duration" description="Duration (in miliseconds) to show the image" />
+		<param name="fadeDuration" type="text" default="700" label="Transition" description="Speed (in miliseconds) of the actual transition" />
+		<param name="timed" type="list" default="true" label="Autoplay" description="Display as a slideshow">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="showInfopane" type="list" default="1" label="Title and Description bar" description="Shows the Title and Description bar (bottom)">
+			<option value="1">Enable</option>
+			<option value="0">Disable</option>
+		</param>
+	<param name="showCarousel" type="list" default="0" label="Thumbnail Navigation" description="Shows thumbnail navigation pane">
+			<option value="1">Enable</option>
+			<option value="0">Disable</option>
+		</param>
+		<param name="showArrows" type="list" default="1" label="Navigation Arrows" description="Shows navigation arrows. *must be enabled when Thumbnail Nav is used*">
+			<option value="1">Enable</option>
+			<option value="0">Disable</option>
+		</param>
+		<param name="embedLinks" type="list" default="1" label="Enable Links" description="Enable images as links">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="linktarget" type="list" default="0" label="Link Window" description="Method to launch links">
+			<option value="1">New Window</option>
+			<option value="0">Parent Window</option>
+		</param>
+		<param name="albumid" type="text" default="0" label="Album ID" description="Album to show images" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module. Allows individual module styling" />
+		
+</params>
+</mosinstall>

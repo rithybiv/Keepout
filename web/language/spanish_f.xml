@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="4.5.4" type="language">
+	<name>Spanish Formal</name>
+	<version>4.5.4</version>
+	<creationDate>2006-07-25</creationDate>
+	<author>Juan Carlos Redondo</author>
+	<authorEmail>snoopy_virtual_studio@telefonica.net</authorEmail>
+	<files>
+		<filename>spanish_f.php</filename>
+		<filename>spanish_f.ignore.php</filename>
+	</files>
+</mosinstall>

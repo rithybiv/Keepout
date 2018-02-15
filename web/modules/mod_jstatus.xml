@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="4.5.1">
+	<name>jstatus</name>
+	<author>Lumsum</author>
+	<creationDate>December 2004</creationDate>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorUrl>www.thanyarak.go.th</authorUrl>
+	<version>4.5.1</version>
+	<description>This module displays status bar texts with scrolling effect.</description>
+	<files>
+		<filename module="mod_jstatus">mod_jstatus.php</filename>
+	</files>
+	<params>
+		<param name="smsg" type="text" default="" label="Status bar Text" description="If not define the defualt is site name." />
+	</params>
+</mosinstall>

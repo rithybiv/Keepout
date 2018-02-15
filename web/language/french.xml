@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall version="4.5.2" type="language">
+	<name>French</name>
+	<version>4.5.2</version>
+	<creationDate>2005-02-17</creationDate>
+	<author>MamboPortail.net (MPN) - MamboFrance.org (MFO)</author>
+	<authorEmail>http://www.mamboportail.net</authorEmail>
+	<files>
+		<filename>french.php</filename>
+		<filename>french.ignore.php</filename>		
+	</files>
+</mosinstall>

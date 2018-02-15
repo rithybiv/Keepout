@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="module">
+	<name>SnowEliopro</name>
+	<author>Félix Dr. Dimitric</author>
+	<authorEmail>felix@eliopro.com</authorEmail>
+	<authorUrl>http://eliopro.com</authorUrl>
+	<creationDate>20.12.2007</creationDate>
+	<copyright>eliopro.com</copyright>
+	<license>GNU/GPL. Based on script http://forum.topflood.com</license>
+	<version>1.0</version>
+	<description> 
+		<![CDATA[ 
+		<p><h4>SnowEliopro</h4></p> 
+		<p>FRENCH & ENGLISH : Affiche de la neige de différentes couleurs et de différentes tailles sur votre site internet Joomla. Vous pouvez aussi choisir si les utilisateurs peuvent arrêter la neige en frontend avec un bouton. ENGLISH : Displays of snow of different colors and different sizes on your website Joomla. You can also choose whether the user can snow in stopping fronted with a button. This module is compatible Firefox and Internet Explorer.</p>  
+		]]></description> 
+
+	<files>
+		<filename module="mod_snoweliopro">mod_snoweliopro.php</filename>
+	</files>
+	<params>
+		<param name="stopsnow" type="list" default="ON" label="End fronted snow ?" description="Displaying a button to stop the snow in fronted">
+				<option value="ON"></option>
+				<option value="OFF"></option>
+		</param>
+	</params>
+</mosinstall>

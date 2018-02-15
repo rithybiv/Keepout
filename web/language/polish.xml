@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-2"?>
+<mosinstall version="4.5.2" type="language">
+	<name>Polish</name>
+	<version>4.5.2</version>
+	<creationDate>2004-09-20</creationDate>
+	<author>MamboPL.com Team</author>
+	<authorEmail>team@mambopl.com</authorEmail>
+	<files>
+		<filename>polish.php</filename>
+		<filename>admin_polish.php</filename>
+
+	</files>
+</mosinstall>

@@ -1,0 +1,61 @@
+<?xml version="1.3" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.0">
+	<name>Flash Rotator</name>
+	<author>JoomlaShack</author>
+	<creationDate>NOV 2005</creationDate>
+	<copyright>2005 www.joomlaShack.com</copyright>
+	<license>http://creativecommons.org/licenses/by-nc-sa/2.0/</license>
+	<authorEmail>joomlashack@gmail.com</authorEmail>
+	<authorUrl>www.joomlashack.com</authorUrl>
+	<version>1.0.0</version>
+	<description><![CDATA[<img src="images/mediamanager.png" alt="advertisement.png, 0 kB" width="48" height="48" hspace="5" border="0" align="left" title="advertisement"/>This module displays a dynamic transitional slideshow from a selection of JPG images. You can name the images whatever you want as long as they are uploaded into the modules/js_flashrotator/jpg folder and all permissions are set to 777. You must utilize all 5 image fields or you will have long pauses in your movie. For best performance make sure your images are the same size as your specified movie settings. Enjoy this release from <a href="http://www.joomlaShack.com">JooomlaShack</a> with special thanks to Jeroen Wijering for all his work.]]>
+	</description>
+	<files>
+	<filename module="mod_flashrotator">mod_flashrotator.php</filename>
+	<filename module="mod_flashrotator">js_flashrotator/jpg/image1.jpg</filename>
+	<filename module="mod_flashrotator">js_flashrotator/jpg/image2.jpg</filename>
+	<filename module="mod_flashrotator">js_flashrotator/jpg/image3.jpg</filename>
+	<filename module="mod_flashrotator">js_flashrotator/jpg/image4.jpg</filename>
+	<filename module="mod_flashrotator">js_flashrotator/jpg/image5.jpg</filename>
+	<filename module="mod_flashrotator">js_flashrotator/flashrotator.swf</filename>
+	<filename module="mod_flashrotator">js_flashrotator/js_flashrotator.xml</filename>
+	<filename module="mod_flashrotator">js_flashrotator/flashobject.js</filename>
+	</files>
+	<params>
+		<param name="width" type="text" default="535px" label="Width (px)" description="Movie width (forces all images to be displayed with this width)" />
+		<param name="height" type="text" default="115px" label="Height (px)" description="Movie height (forces all images to be displayed with the height)" />
+		<param name="bgcolor" type="text" default="#FFFFFF" label="Movie background Color" description="The background color for your movie (shows in bgfade)" />
+		<param name="rotatetime" type="text" default="2" label="Tween Time" description="Set this number to the desired amount in seconds to tween in between images" />
+		<param name="transition" type="list" default="bgfade" label="Transition Effect" description="Select the transition you wish to apply to the flash object. Sorry No Random Transitions!">
+			<option value="bgfade">Background Fade</option>
+			<option value="fade">Fading Transition</option>
+			<option value="fluids">Fluid Transition</option>
+			<option value="blocks">Blocks Transition</option>
+			<option value="circles">Circlar Transition</option>
+		</param>
+		<param name="randomplay" type="radio" default="false" label="Randomize" description="cycle through images randomly">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="shownavigation" type="radio" default="0" label="Show Navigation" description="Select if you would like navigation to appear in your movie">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="transparent" type="list" default="opaque" label="WMODE=Transparent" description="This makes the module transparent. Background color is overridden. Use this to fade your JPG's over a graphic background styled in your CSS module class suffix">
+			<option value="opaque">Opaque</option>
+			<option value="transparent">Transparent</option>
+			<option value="window">Window</option>
+		</param>
+		<param name="image1" type="imagelist" directory="/modules/js_flashrotator/jpg" hide_none="1" default="image1.jpg" label="Image 1" description="Choose the image to be used" />
+		<param name="link1" type="text" default="" label="Link 1" description="A URL to redirect to when clicked" />
+		<param name="image2" type="imagelist" directory="/modules/js_flashrotator/jpg" hide_none="1" default="image2.jpg" label="Image 2" description="Choose the image to be used" />
+		<param name="link2" type="text" default="" label="Link 2" description="A URL to redirect to when clicked" />
+		<param name="image3" type="imagelist" directory="/modules/js_flashrotator/jpg" hide_none="1" default="image3.jpg" label="Image 3" description="Choose the image to be used" />
+		<param name="link3" type="text" default="" label="Link 3" description="A URL to redirect to when clicked" />
+		<param name="image4" type="imagelist" directory="/modules/js_flashrotator/jpg" hide_none="1" default="image4.jpg" label="Image 4" description="Choose the image to be used" />
+		<param name="link4" type="text" default="" label="Link 4" description="A URL to redirect to when clicked" />
+		<param name="image5" type="imagelist" directory="/modules/js_flashrotator/jpg" hide_none="1" default="image5.jpg" label="Image 5" description="Choose the image to be used" />
+		<param name="link5" type="text" default="" label="Link 5" description="A URL to redirect to when clicked" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+</params>
+</mosinstall>

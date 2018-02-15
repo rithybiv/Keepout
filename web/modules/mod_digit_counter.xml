@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="4.5.1">
+    <name>Digital Visitors Counter</name>
+    <creationDate>19-jul-2005</creationDate>
+    <author>MicroCi</author>
+    <copyright>This module is released under the GNU/GPL License</copyright>
+    <authorEmail>iw1qlh@amsat.org</authorEmail>
+    <authorUrl>http://www.iw1qlh.net</authorUrl>
+    <version>1.0</version>
+    <description>Display graphical counter in some formats (nixie, counting tubes, display,mechanical counter, etc).</description>
+    <files>
+      <filename module="mod_digit_counter">mod_digit_counter.php</filename>
+    </files>
+    <images>
+      <filename>mod_digit_counter/a0.gif</filename>
+      <filename>mod_digit_counter/a1.gif</filename>
+      <filename>mod_digit_counter/a2.gif</filename>
+      <filename>mod_digit_counter/a3.gif</filename>
+      <filename>mod_digit_counter/a4.gif</filename>
+      <filename>mod_digit_counter/a5.gif</filename>
+      <filename>mod_digit_counter/a6.gif</filename>
+      <filename>mod_digit_counter/a7.gif</filename>
+      <filename>mod_digit_counter/a8.gif</filename>
+      <filename>mod_digit_counter/a9.gif</filename>
+      <filename>mod_digit_counter/b0.gif</filename>
+      <filename>mod_digit_counter/b1.gif</filename>
+      <filename>mod_digit_counter/b2.gif</filename>
+      <filename>mod_digit_counter/b3.gif</filename>
+      <filename>mod_digit_counter/b4.gif</filename>
+      <filename>mod_digit_counter/b5.gif</filename>
+      <filename>mod_digit_counter/b6.gif</filename>
+      <filename>mod_digit_counter/b7.gif</filename>
+      <filename>mod_digit_counter/b8.gif</filename>
+      <filename>mod_digit_counter/b9.gif</filename>
+    </images>
+    <params>
+        <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+	<param name="increase" type="text" default="0" label="Increase counter" description="Enter the amount of hits to increase counter by" />
+	<param name="disp_type" type="list" default="101" label="Display type" description="Select the type of display">
+		<option value="a">Mechanical</option> 
+		<option value="b">Nixie</option> 
+		<option value="c">Custom (c)</option> 
+		<option value="d">Custom (d)</option> 
+		<option value="e">Custom (e)</option> 
+	</param>
+	<param name="posttext" type="textarea" cols="20" rows="5" label="Post-text" description="This is the Text or HTML that is displayed below the counter" />
+    </params>
+</mosinstall>
