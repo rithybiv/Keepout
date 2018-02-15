@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="component">
+  <name>MamboMap</name>
+  <creationDate>2005-08-11</creationDate>
+  <author>Daniel Grothe</author>
+  <copyright>This component is released under the GNU/GPL License</copyright>
+  <authorEmail>grothe@ko-ca.com</authorEmail>
+  <authorUrl>http://www.ko-ca.com</authorUrl>
+  <version>1.24</version>
+  <description>MamboMap shows a Mambo sitemap. Supports: Mambo Content, PhpShop Categories.
+  Enable the menus you want to be listed in the Mambo Map Configuration.</description>
+  <files>
+    <filename>mambomap.html.php</filename>
+    <filename>mambomap.php</filename>
+    <filename>index.html</filename>
+  </files>
+  <install>
+  </install>
+  <uninstall>
+  </uninstall>
+  <administration>
+  <menu>Mambo Map</menu>
+  <files>
+    <filename>admin.mambomap.php</filename>
+    <filename>admin.mambomap.html.php</filename>
+    <filename>toolbar.mambomap.php</filename>
+    <filename>toolbar.mambomap.html.php</filename>
+    <filename>mambomap.config.php</filename>
+    <filename>index.html</filename>
+  </files>
+  </administration>
+</mosinstall>

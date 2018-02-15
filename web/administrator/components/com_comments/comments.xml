@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<mosinstall type="component">
+	<name>COMMENTS</name>
+	<creationDate>10/14/2005</creationDate>
+	<author>Chanh Ong</author>
+	<copyright>This component is released under the GNU/GPL License</copyright>
+	<authorEmail>chanh.ong@gmail.com</authorEmail>
+	<authorUrl>ongetc.com</authorUrl>
+	<version>0.5.8.5g</version>
+	<description>Comments on Content (Please view Post Install Configuration)</description>
+	<files>
+		<filename>comments.php</filename>
+		<filename>comments.class.php</filename>		
+		<filename>comments.html.php</filename>		
+	</files>
+	<install>
+			<queries>
+			<query>CREATE TABLE IF NOT EXISTS `mos_content_comments` (
+  `articleid` int(11) NOT NULL default '0',
+  `id` int(10) unsigned zerofill NOT NULL auto_increment,
+  `entry` text NOT NULL,
+  `name` text NOT NULL,
+  `email` varchar(63) NOT NULL default '',
+  `homepage` varchar(63) NOT NULL default '',
+  `date` varchar(20) NOT NULL default '',
+  `time` varchar(5) NOT NULL default '',
+  `published` char(1) NOT NULL default '0',
+  KEY `id` (`id`)
+) TYPE=MyISAM
+			</query>
+			<query>INSERT INTO `mos_content_comments` (`articleid`, `id`, `entry`, `name`, `email`, `homepage`, `date`, `time`, `published`) VALUES ('1', '', 'This is a test entry against article 1', 'Chanh Ong', 'chanh.ong@gmail.com', 'http://ongetc.com', 'Today', 'Now!', '0') </query>
+			</queries>
+	</install>
+	<administration>
+		<menu>MosCom</menu>
+			<submenu>
+			<menu act="">View comments</menu>
+			<menu act="config">Configuration</menu>
+			<menu act="instructions">Instructions</menu>			
+		</submenu>
+		<files>
+			<filename>admin.comments.php</filename>
+			<filename>admin.comments.html.php</filename>
+			<filename>admin.comments.class.php</filename>
+			<filename>toolbar.comments.php</filename>
+			<filename>toolbar.comments.html.php</filename>
+			<filename>comments_config.php</filename>			
+			<filename>common.php</filename>			
+			
+			<filename>about.css</filename>
+			<filename>about.php</filename>
+			<filename>about.js</filename>
+			<filename>license.php</filename>
+			<filename>dhtml.js</filename>
+			<filename>changelog.txt</filename>
+			<filename>credit.txt</filename>
+			
+			<filename>duf_lang.php</filename>
+			<filename>eng_lang.php</filename>
+			<filename>esp_lang.php</filename>
+			<filename>russia_lang.php</filename>
+			<filename>brazilian_portuguese_lang.php</filename>
+			<filename>french_lang.php</filename>
+			<filename>de_lang.php</filename>
+			<filename>german_lang.php</filename>    
+			<filename>arabic_lang.php</filename> 
+		</files>
+		<images>
+		<filename>images/review.jpg</filename>
+		<filename>images/key.gif</filename>
+		</images>
+	</administration>
+</mosinstall>

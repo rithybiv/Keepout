@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="http://keepout.fr/web">
+        <title>Powered by Mambo</title>
+        <description>Mambo site syndication</description>
+        <link>http://keepout.fr/web</link>
+        <image rdf:resource="http://keepout.fr/web/images/M_images/mambo_rss.png" />
+       <dc:date>2009-01-02T10:34:18+01:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=42&amp;Itemid=1"/>
+                <rdf:li rdf:resource="http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=27&amp;Itemid=1"/>
+                <rdf:li rdf:resource="http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=34&amp;Itemid=1"/>
+                <rdf:li rdf:resource="http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=28&amp;Itemid=1"/>
+                <rdf:li rdf:resource="http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=15&amp;Itemid=1"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="http://keepout.fr/web/images/M_images/mambo_rss.png">
+        <title>Powered by Mambo</title>
+        <link>http://keepout.fr/web</link>
+        <url>http://keepout.fr/web/images/M_images/mambo_rss.png</url>
+    </image>
+    <item rdf:about="http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=42&amp;Itemid=1">
+        <dc:format>text/html</dc:format>
+        <dc:source>http://keepout.fr/web</dc:source>
+        <dc:creator>Rithy</dc:creator>
+        <title>&gt; Scéance de dédicaces - 20 ans de la bibliothèque de Manthes</title>
+        <link>http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=42&amp;Itemid=1</link>
+        <description>Pour les 20 ans de la Bibliothèque de Manthes (26 - Drôme), l'auteur a été invité. </description>
+    </item>
+    <item rdf:about="http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=27&amp;Itemid=1">
+        <dc:format>text/html</dc:format>
+        <dc:source>http://keepout.fr/web</dc:source>
+        <dc:creator>Rithy</dc:creator>
+        <title>Keep Out ! récompensé par Délivr&amp;moi et Soleil</title>
+        <link>http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=27&amp;Itemid=1</link>
+        <description>L'association de l'école de Reims et la fameuse maison d'édition Soleil ont récompensé Keep Out ! d'un premier prix d'un...</description>
+    </item>
+    <item rdf:about="http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=34&amp;Itemid=1">
+        <dc:format>text/html</dc:format>
+        <dc:source>http://keepout.fr/web</dc:source>
+        <dc:creator>Rithy</dc:creator>
+        <title>Keep Out ! sur le Web</title>
+        <link>http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=34&amp;Itemid=1</link>
+        <description>On parle également de Keep Out ! sur d'autres sites, je vous invite à les découvrir.</description>
+    </item>
+    <item rdf:about="http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=28&amp;Itemid=1">
+        <dc:format>text/html</dc:format>
+        <dc:source>http://keepout.fr/web</dc:source>
+        <dc:creator>Rithy</dc:creator>
+        <title>Passage dans la news de CPE Lyon</title>
+        <link>http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=28&amp;Itemid=1</link>
+        <description>La nouvelle de la récompense a été diffusé dans le point d'info de CPE Lyon.
+</description>
+    </item>
+    <item rdf:about="http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=15&amp;Itemid=1">
+        <dc:format>text/html</dc:format>
+        <dc:source>http://keepout.fr/web</dc:source>
+        <dc:creator>Rithy</dc:creator>
+        <title>Bienvenue sur le site dédié à Keep Out !</title>
+        <link>http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=15&amp;Itemid=1</link>
+        <description>Bienvenue sur le nouveau site de Keep Out.</description>
+    </item>
+</rdf:RDF>

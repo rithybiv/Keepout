@@ -1,0 +1,10 @@
+Name				Credit to their contribution
+--------------------------	---------------------------------------------------
+Jan de Graaff			For integrating language support & dutch Lang file
+Pavel				For russia_lang.php
+Bras Cool			For brazilian_portuguese_lang.php 
+Kevin Cain			For french_lang.php 
+Maik Holtkamp			For de_lang.php
+Jiri Ripa & Dominik Schub	For german_lang.php
+Fuga http://dndon.net		For arabic_lang.php
+Gabor 				For suggestion on using phpInputFilter

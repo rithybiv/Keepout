@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<rss version="0.91">
+    <channel>
+        <title>Powered by Mambo</title>
+        <description>Mambo site syndication</description>
+        <link>http://keepout.fr/web</link>
+        <lastBuildDate>Fri, 02 Jan 2009 10:34:15 +0100</lastBuildDate>
+        <generator>FeedCreator 1.7.2</generator>
+        <image>
+            <url>http://keepout.fr/web/images/M_images/mambo_rss.png</url>
+            <title>Powered by Mambo</title>
+            <link>http://keepout.fr/web</link>
+            <description>Mambo site syndication</description>
+        </image>
+        <item>
+            <title>&gt; Scéance de dédicaces - 20 ans de la bibliothèque de Manthes</title>
+            <link>http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=42&amp;Itemid=1</link>
+            <description>Pour les 20 ans de la Bibliothèque de Manthes (26 - Drôme), l'auteur a été invité. </description>
+            <author>Rithy</author>
+        </item>
+        <item>
+            <title>Keep Out ! récompensé par Délivr&amp;moi et Soleil</title>
+            <link>http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=27&amp;Itemid=1</link>
+            <description>L'association de l'école de Reims et la fameuse maison d'édition Soleil ont récompensé Keep Out ! d'un premier prix d'un...</description>
+            <author>Rithy</author>
+        </item>
+        <item>
+            <title>Keep Out ! sur le Web</title>
+            <link>http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=34&amp;Itemid=1</link>
+            <description>On parle également de Keep Out ! sur d'autres sites, je vous invite à les découvrir.</description>
+            <author>Rithy</author>
+        </item>
+        <item>
+            <title>Passage dans la news de CPE Lyon</title>
+            <link>http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=28&amp;Itemid=1</link>
+            <description>La nouvelle de la récompense a été diffusé dans le point d'info de CPE Lyon.
+</description>
+            <author>Rithy</author>
+        </item>
+        <item>
+            <title>Bienvenue sur le site dédié à Keep Out !</title>
+            <link>http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=15&amp;Itemid=1</link>
+            <description>Bienvenue sur le nouveau site de Keep Out.</description>
+            <author>Rithy</author>
+        </item>
+    </channel>
+</rss>

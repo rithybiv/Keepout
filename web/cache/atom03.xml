@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="FeedCreator 1.7.2" -->
+<feed version="0.3" xmlns="http://purl.org/atom/ns#">
+    <title>Powered by Mambo</title>
+    <tagline>Mambo site syndication</tagline>
+    <link rel="alternate" type="text/html" href="http://keepout.fr/web"/>
+    <id>http://keepout.fr/web</id>
+    <modified>2009-01-02T10:34:34+01:00</modified>
+    <generator>FeedCreator 1.7.2</generator>
+    <entry>
+        <title>&gt; Scéance de dédicaces - 20 ans de la bibliothèque de Manthes</title>
+        <link rel="alternate" type="text/html" href="http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=42&amp;Itemid=1"/>
+        <created>2009-01-02T09:34:34+01:00</created>
+        <issued>2009-01-02T09:34:34+01:00</issued>
+        <modified>2009-01-02T09:34:34+01:00</modified>
+        <id>http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=42&amp;Itemid=1</id>
+        <author>
+            <name>Rithy</name>
+        </author>
+        <summary>Pour les 20 ans de la Bibliothèque de Manthes (26 - Drôme), l'auteur a été invité. </summary>
+    </entry>
+    <entry>
+        <title>Keep Out ! récompensé par Délivr&amp;moi et Soleil</title>
+        <link rel="alternate" type="text/html" href="http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=27&amp;Itemid=1"/>
+        <created>2009-01-02T09:34:34+01:00</created>
+        <issued>2009-01-02T09:34:34+01:00</issued>
+        <modified>2009-01-02T09:34:34+01:00</modified>
+        <id>http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=27&amp;Itemid=1</id>
+        <author>
+            <name>Rithy</name>
+        </author>
+        <summary>L'association de l'école de Reims et la fameuse maison d'édition Soleil ont récompensé Keep Out ! d'un premier prix d'un...</summary>
+    </entry>
+    <entry>
+        <title>Keep Out ! sur le Web</title>
+        <link rel="alternate" type="text/html" href="http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=34&amp;Itemid=1"/>
+        <created>2009-01-02T09:34:34+01:00</created>
+        <issued>2009-01-02T09:34:34+01:00</issued>
+        <modified>2009-01-02T09:34:34+01:00</modified>
+        <id>http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=34&amp;Itemid=1</id>
+        <author>
+            <name>Rithy</name>
+        </author>
+        <summary>On parle également de Keep Out ! sur d'autres sites, je vous invite à les découvrir.</summary>
+    </entry>
+    <entry>
+        <title>Passage dans la news de CPE Lyon</title>
+        <link rel="alternate" type="text/html" href="http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=28&amp;Itemid=1"/>
+        <created>2009-01-02T09:34:34+01:00</created>
+        <issued>2009-01-02T09:34:34+01:00</issued>
+        <modified>2009-01-02T09:34:34+01:00</modified>
+        <id>http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=28&amp;Itemid=1</id>
+        <author>
+            <name>Rithy</name>
+        </author>
+        <summary>La nouvelle de la récompense a été diffusé dans le point d'info de CPE Lyon.
+</summary>
+    </entry>
+    <entry>
+        <title>Bienvenue sur le site dédié à Keep Out !</title>
+        <link rel="alternate" type="text/html" href="http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=15&amp;Itemid=1"/>
+        <created>2009-01-02T09:34:34+01:00</created>
+        <issued>2009-01-02T09:34:34+01:00</issued>
+        <modified>2009-01-02T09:34:34+01:00</modified>
+        <id>http://keepout.fr/web/index.php?option=com_content&amp;task=view&amp;id=15&amp;Itemid=1</id>
+        <author>
+            <name>Rithy</name>
+        </author>
+        <summary>Bienvenue sur le nouveau site de Keep Out.</summary>
+    </entry>
+</feed>

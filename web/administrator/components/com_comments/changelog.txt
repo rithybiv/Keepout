@@ -1,0 +1,53 @@
+Version 0.5.8.5g
+. add missing </div>
+. add filter sql injection
+. filter spamer
+
+Version 0.5.8.5d
+. Add arabic_lang.php
+. Patch to run in Joomla 1.0
+. Use "smalltext" to fix align anormally when display in planetfall template.
+. Undefine error on id when install SMF bridge, why?
+
+Version: 0.5.8.5 
+. Add suggestion from Gabor on using phpInputFilter 
+. Use mosFormateDate
+. exclude E_NOTICE to better handle error
+. fix send mail error
+. more refactor code
+. add paging of comment
+. add credit to about.php for 2 German translation files
+. miss german_lang.php in previous release.
+
+Version: 0.5.8.3a Add German and De translation and more rewrite, bug fix
+
+version: 0.5.8.2f Add French translation and more rewrite
+
+Version: 0.5.8.1 Add hide URL and more rewrite into admin.comments.class.php
+
+Version: 0.5.7a Use admin email for the "From:" when send notification email, fix bug when hide comment.
+
+Version: 0.5.7 Add Bras Cool credit, allow anyone to see comment but must be login to leave comment
+
+Version: 0.5.6a,b Add config setting to disable Google Adsense
+
+Version: 0.5.6 Add brazilian_portuguese_lang.php, fix a bug on not able to save config
+
+Version: 0.5.5a Minor fix on the default value
+
+Version: 0.5.5 Almost complete rewrite on all files
+. Add admin.comments.class.php, comments.class.php, common.php
+
+Version 0.5.4 Start from 0.5.2.1 code base again!
+. admin.comments.php: Error in view comment when no record
+. dhtml.js, common.php, russia_lang.php: new files
+. about.php: fix bugs
+. comments.xml: add new files
+
+version 0.5.3 Lot of rewrite but abandon!
+
+version 0.5.2.2a Add Russia language file and bug fixes
+
+Version 0.5.2.2 Quick fix but introduce some bugs
+
+Version 0.5.2.1 Change Combo 0.5.2 to Moscom 0.5.2.1
